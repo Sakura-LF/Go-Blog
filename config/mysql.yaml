@@ -1,0 +1,20 @@
+mysql:
+  host: localhost
+  port: 3306
+  user: root
+  pass: Sakura
+  dbname: blog
+
+gorm:
+  log:
+    # 慢查询阈值
+    SlowThreshold: 200ms
+    # 日志级别 info=4 Error=2 warn=3 Silent=4
+    LogLevel: 4
+    # 禁用彩色打印
+    Colorful: false
+  db:
+    # 数据库连接池最大连接数
+    MaxOpenConn: 100
+    # 数据库最大允许的空闲丽娜姐
+    MaxIdleConn: 20
