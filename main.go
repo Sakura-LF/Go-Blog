@@ -30,7 +30,7 @@ func main() {
 	})
 
 	router.Static("/js", "views/js")                                                    //在url是访问目录/js相当于访问文件系统中的views/js目录
-	router.StaticFile("/favicon.ico", "views/img/dqq.png")                              //在url中访问文件/favicon.ico，相当于访问文件系统中的views/img/dqq.png文件
+	router.StaticFile("/favicon.ico", "views/img/亚丹.jpg")                               //在url中访问文件/favicon.ico，相当于访问文件系统中的views/img/dqq.png文件
 	router.LoadHTMLFiles("views/login.html", "views/blog_list.html", "views/blog.html") //使用这些.html文件时就不需要加路径了
 
 	// GIN作者认为一个url同时支持GET和POST是不合理需求
