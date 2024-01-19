@@ -1,0 +1,6 @@
+time="2024-01-19 14:22:23.703" level=info msg="connect to mysql db blog" func=blog/database.createMysqlDB file="C:/Users/18084/Desktop/dqq_blog/database/db_connection.go:54"
+time="2024-01-19 14:22:28.991" level=info msg="user Sakura(1) login" func=blog/handler.Login file="C:/Users/18084/Desktop/dqq_blog/handler/login.go:40"
+time="2024-01-19 14:22:28.998" level=info msg="connect to redis 0" func=blog/database.createRedisClient file="C:/Users/18084/Desktop/dqq_blog/database/db_connection.go:84"
+time="2024-01-19 14:22:29.017" level=debug msg="get 2 blogs of user 1" func=blog/handler.BlogList file="C:/Users/18084/Desktop/dqq_blog/handler/blog.go:21"
+time="2024-01-19 14:22:31.917" level=debug msg="好" func=blog/handler.BlogDetail file="C:/Users/18084/Desktop/dqq_blog/handler/blog.go:38"
+time="2024-01-19 14:22:33.887" level=debug msg="冲晕了111" func=blog/handler.BlogDetail file="C:/Users/18084/Desktop/dqq_blog/handler/blog.go:38"

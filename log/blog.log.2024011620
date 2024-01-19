@@ -1,0 +1,1 @@
+time="2024-01-16 20:35:18.325" level=panic msg="connect to mysql use dsn root:jhkdjhkjdhsIUTYURTU_pZetDn@tcp(:3306)/blog?charset=utf8mb4&parseTime=True&loc=Local failed: Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)" func=blog/database.createMysqlDB file="C:/Users/18084/Desktop/dqq_blog/database/db_connection.go:46"

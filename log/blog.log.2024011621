@@ -1,0 +1,3 @@
+time="2024-01-16 21:21:34.380" level=info msg="connect to mysql db blog" func=blog/database.createMysqlDB file="C:/Users/18084/Desktop/dqq_blog/database/db_connection.go:52"
+time="2024-01-16 21:21:34.384" level=error msg="get password of user Sakur failed: Error 1146 (42S02): Table 'blog.user' doesn't exist" func=blog/database.GetUserByName file="C:/Users/18084/Desktop/dqq_blog/database/user.go:29"
+time="2024-01-16 21:23:40.516" level=error msg="get password of user Sakur failed: Error 1146 (42S02): Table 'blog.user' doesn't exist" func=blog/database.GetUserByName file="C:/Users/18084/Desktop/dqq_blog/database/user.go:29"
